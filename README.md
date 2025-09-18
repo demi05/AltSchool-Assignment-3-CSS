@@ -36,14 +36,6 @@ The webpage introduces me, showcases my hobbies, and highlights my aspirations i
 
 ---
 
-## 🚀 How to Run
-
-1. Clone this repository or download the project files.
-2. Open `index.html` in your web browser.
-3. (Optional) Replace the profile image in `./assets/images/` with your own picture.
-
----
-
 ## 📷 Layout Preview
 
 ### Desktop View
