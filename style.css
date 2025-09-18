@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  padding: 100px;
+  font-size: 18px;
+}
+
+.main-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.main-div h3,
+.second-div h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.main-div p {
+  line-height: 1.5;
+}
+
+.image-div {
+  width: 50%;
+}
+
+.image-div img {
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+.second-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.second-div div {
+  border: 1px solid black;
+  background-color: lavenderblush;
+  padding: 40px;
+}
+
+.main-div,
+.second-div div {
+  border-radius: 15px;
+}
+
+.second-div li {
+  margin-bottom: 16px;
+}
+
+.second-div li span {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 30px;
+  }
+  .main-div {
+    grid-template-columns: 1fr;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .main-div,
+  .second-div {
+    grid-template-columns: 1fr;
+  }
+
+  .second-div h3 {
+    text-align: center;
+  }
+
+  .image-div {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .second-div div {
+    margin-bottom: 20px;
+  }
+}
